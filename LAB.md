@@ -131,4 +131,4 @@ git push -u origin experiment/rebase
 
 Что было сделано (`git commit --amend` после push), почему обычный `git push` отказал, чем `--force-with-lease` безопаснее `--force`.
 
-![Push --force-with-lease успех](screenshots/star-2-force-with-lease.png)
+![Push --force-with-lease успех](screenshots/star-2-force-with-lease.PNG)
