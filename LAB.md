@@ -132,16 +132,3 @@ git push -u origin experiment/rebase
 Что было сделано (`git commit --amend` после push), почему обычный `git push` отказал, чем `--force-with-lease` безопаснее `--force`.
 
 ![Push --force-with-lease успех](screenshots/star-2-force-with-lease.png)
-
-### ⭐3 — rebase с конфликтом на каждом коммите
-
-Сюжет, через сколько `--continue` прошли, что почувствовали по сравнению с пассивным merge.
-
-![Финал rebase --continue](screenshots/star-3-multi-conflict.png)
-
-### ⭐4 — безопасный выход из detached HEAD
-
-Как зашли в detached HEAD, какой коммит сделали, как выходили через `git switch -c`, чем `git reflog` помог как страховка.
-
-![Выход из detached HEAD](screenshots/star-4-detached-head.png)
-
