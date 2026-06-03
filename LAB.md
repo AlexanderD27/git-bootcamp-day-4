@@ -123,7 +123,7 @@ git push -u origin experiment/rebase
 
 ### ⭐1 — `git pull` vs `git pull --rebase`
 
-Что было воспроизведено, какая разница в истории получилась, какую глобальную настройку поставили в `~/.gitconfig`.
+В локальном репозитории создан файл `NODE.md` и закоммитил, затем через web github.com добавил файли `from-server.md` и закоммитил. Выполнил оба этапа и `git pull` по умолчанию и `git pull --rebase`. В `~/gitconfig` выстаивл true pull.rebase, так как более чистый результат. В первом варианте можно самому исправить дефолтное Merge branch.
 
 ![Состояние истории до/после pull --rebase](screenshots/star-1-pull-rebase.png)
 
